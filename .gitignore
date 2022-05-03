@@ -64,7 +64,7 @@ mouse.KeyDown:Connect(function(k)
         enabled = false
         guimain[Plr.Name].Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     else
-        enabled = true 
+        enabled = false 
         Plr = getClosestPlayerToCursor()
         guimain[Plr.Name].Frame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
     end    
