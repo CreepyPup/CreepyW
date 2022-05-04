@@ -3,7 +3,6 @@ local CC = game:GetService"Workspace".CurrentCamera
     local enabled = false
     local accomidationfactor = 0.129145
     local mouse = game.Players.LocalPlayer:GetMouse()
-    local placemarker = Instance.new("Part", game.Workspace)
  
     function makemarker(Parent, Adornee, Color, Size, Size2)
         local e = Instance.new("BillboardGui", Parent)
