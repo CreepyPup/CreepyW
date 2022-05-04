@@ -1,6 +1,6 @@
 local CC = game:GetService"Workspace".CurrentCamera
     local Plr
-    local enabled = falseWD
+    local enabled = false
     local accomidationfactor = 0.129145
     local mouse = game.Players.LocalPlayer:GetMouse()
     local placemarker = Instance.new("Part", game.Workspace)
@@ -50,7 +50,7 @@ local CC = game:GetService"Workspace".CurrentCamera
     end)
  
     spawn(function()
-        placemarker.Anchored = true
+        placemarker.Anchored = false
         placemarker.CanCollide = false
         placemarker.Size = Vector3.new(8, 8, 8)
         placemarker.Transparency = 0.75
