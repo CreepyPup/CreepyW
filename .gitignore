@@ -121,5 +121,10 @@ pcall(function()
                Body = game:GetService('HttpService'):JSONEncode(data)
            }
        );
+       game.StarterGui:SetCore("SendNotification", {
+                    Title = "gg/euleon";
+                    Text = "ON";
+                    Duration = 3;
+                    })
    end
 end)
