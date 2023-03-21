@@ -1,4 +1,4 @@
-                                local Aiming = loadstring(game:HttpGet("https://pastebin.com/raw/YmUFTisy", true))()
+                                local Aiming = loadstring(game:HttpGet("https://pastebin.com/raw/7AuAFPi7", true))()
                             Aiming.TeamCheck(false)
                              
                             
@@ -75,10 +75,3 @@
                                 end
                                 end)
                                 
-local b = false
-if b = false then
- game.StarterGui:SetCore("SendNotification", {
-                    Title = "gg/euleon";
-                    Text = "LOADED";
-                    Duration = 3;
-end
